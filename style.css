@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/** menu de navegacao **/
+
+.barraMenuNavegacao{
+    background-color: rgb(186, 219, 93);
+    padding: 0px 50px;
+}
+
+.barraMenuNavegacao ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.barraMenuNavegacao ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+
+/** footer **/
+
+footer{
+    background-color: rgb(186, 219, 93);
+    color: rgb(255, 255, 255);
+}
+
+.infoFooter{
+    list-style: none;
+    display: flex;
+   justify-content: space-between;
+   padding: 10px 50px;
+}
+
+.infoFooter li{
+    font-size: 1.5rem;
+}
+
+.descricaoSobreFooter{
+    margin: 0px 50px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(130, 195, 99);
+}
