@@ -4,18 +4,19 @@
 
 html{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(64, 64, 63);
 }
 
 /** menu de navegacao **/
 
 .barraMenuNavegacao{
     background-color: rgb(186, 219, 93);
-    padding: 0px 50px;
 }
 
 .barraMenuNavegacao ul{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     list-style: none;
 }
 
@@ -25,17 +26,43 @@ html{
     font-size: 2.5rem;
 }
 
+section{
+    margin: 50px 0px;
+}
+
 /** section 1 **/
 
-section{
+#sessao1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .imgSessao1{
-    width: 30%;
+    width: 20%;
     border: 5px solid rgb(255, 227, 130);
+}
+
+/** section 2 **/
+
+#sessao2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sessao2 h1{
+    color: rgb(130, 195, 99);
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+#sessao2 p{
+    margin: -20px 0px;
+    font-size: 1.25rem;
+    text-align: center;
+    width: 35%;
 }
 
 /** footer **/
@@ -46,10 +73,10 @@ footer{
 }
 
 .infoFooter{
-    list-style: none;
     display: flex;
-   justify-content: space-between;
-   padding: 10px 50px;
+    justify-content: space-around;
+    padding: 10px 50px;
+    list-style: none;
 }
 
 .infoFooter li{
