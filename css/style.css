@@ -26,6 +26,8 @@ html{
     font-size: 2.5rem;
 }
 
+/** main **/
+
 section{
     margin: 50px 0px;
 }
@@ -84,7 +86,7 @@ footer{
 }
 
 .descricaoSobreFooter{
-    margin: 0px 50px;
+    margin: 0px 240px;
 }
 
 .copyright{
