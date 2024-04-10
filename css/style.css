@@ -29,7 +29,14 @@ html{
 /** main **/
 
 section{
-    margin: 50px 0px;
+    padding: 50px 0px;
+}
+
+h1{
+    color: rgb(130, 195, 99);
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
 }
 
 /** section 1 **/
@@ -54,17 +61,60 @@ section{
     align-items: center;
 }
 
-#sessao2 h1{
-    color: rgb(130, 195, 99);
-    font-size: 2rem;
-    font-weight: lighter;
-}
-
 #sessao2 p{
     margin: -20px 0px;
     font-size: 1.25rem;
     text-align: center;
     width: 35%;
+}
+
+/** section 3 **/
+
+#sessao3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgSessao3{
+    width: 25%;
+    border-radius: 100%;
+    border: 3px solid rgb(255, 227, 130);
+    padding: 5px;
+}
+
+/** section 4 **/
+
+#sessao4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: -80px 0px;
+}
+
+#sessao4 p{
+    font-size: 1.25rem;
+}
+
+/** section 5 **/
+
+#sessao5{
+    text-align: center;
+}
+
+#sessao5 div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgSessao5{
+    width: 400px;
+    height: 400px;
+    border: 3px solid rgb(255, 227, 130);
+    padding: 5px;
 }
 
 /** footer **/
@@ -86,7 +136,7 @@ footer{
 }
 
 .descricaoSobreFooter{
-    margin: 0px 240px;
+    margin: 0px 305px;
 }
 
 .copyright{
