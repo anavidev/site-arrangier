@@ -7,10 +7,30 @@ html{
     color: rgb(64, 64, 63);
 }
 
-/** menu de navegacao **/
+/** header **/
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contatoHeader{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contatoHeader img{
+    padding: 0px 10px;
+}
 
 .barraMenuNavegacao{
     background-color: rgb(186, 219, 93);
+    width: 100%;
+    margin: 20px 0px;
+
 }
 
 .barraMenuNavegacao ul{
@@ -67,6 +87,7 @@ h3{
     height: 500px;
     width: 700px;
     margin: 0 auto;
+    background-color: rgb(250, 237, 190);
     border: 7px solid rgb(255, 227, 130);
 }
 

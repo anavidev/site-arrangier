@@ -4,14 +4,14 @@ Pequeno projeto de Desenvolvimento Web I focado no desenvolvimento de uma págin
 ## HTML Semântico
    Semântica é um ramo da linguística que envolve o significado das coisas. HTML semântico envolve a utilização de tags que tenham sentido para pessoas e máquinas. Essas tags indicam exatamente o tipo de conteúdo que há dentro delas. Algumas tags semânticas são: header, aside, main, e section.  
    As vantagens e benefícios da utilização do HTML semântico estão relacionados com a acessibilidade. Utilizar tags semânticas permite que leitores de tela entendam o que cada conteúdo representa na página web com mais facilidade, melhorando a experiência do usuário.  
-   Utilizar tags semânticas também facilita o entendimento das linhas de código para programadores pois evita a criação de tags div com nomes genéricos.
+   Utilizar tags semânticas também facilita o entendimento das linhas de código para programadores pois evita a criação de tags div com nomes genéricos.  
    Alguns exemplos de usabilidade do HTML são:
-   - A tag !DOCTYPE html indica que o documento está sendo trabalhado com o HTML5.
-   - A tag footer indica que a parte visível do documento HTML (body) está acabando.
+   - A tag !DOCTYPE html indica que o documento está sendo escrito de acordo com a especificação HTML5.
+   - A tag footer indica que há um rodapé no documento HTML5.
    - A tag nav indica que há um menu de navegação no documento HTML.
 
 ## class, id e tags no CSS
-tags: Responsáveis por definir o layout de uma página web. Compostas por um seletor, que indica qual elemento do código HTML será estilizado, e propriedades, que indicam a forma que o estilo será aplicado.
+tags: Responsáveis por definir o layout de uma página web. Compostas por um seletor, que indica qual elemento do código HTML será estilizado, e propriedades, que indicam a forma que o estilo será aplicado.  
 id: Usado para identificar apenas um elemento no documento HTML. Não deve ter mais de um elemento com o mesmo id no HTML. No CSS, ele é representado por cerquilha(#).  
 class: Usado para identificar um ou mais elementos no documento HTML. Esse atributo é usado quando há elementos com características parecidas no HTML. No CSS, ele é representado por ponto(.).
 
