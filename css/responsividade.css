@@ -1,0 +1,12 @@
+@media (max-width: 1024px){
+    #logo{
+        width: 40%;
+    }
+}
+
+@media (max-width: 720px){
+    #sessaoSlide{
+        width: 75%;
+        height: 300px;
+    }
+}
